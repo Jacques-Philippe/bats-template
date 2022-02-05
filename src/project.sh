@@ -1,7 +1,13 @@
-#!/usr/bin/env bash
+#!/bin/bash
+source ./src/utils.sh
 
-echo "Welcome to our project!"
+add(){
+    if [[ "$#" -eq 2 ]];
+    then
+        echo "$1+$2" | bc 
+    else
+        error "Please enter two arguments"
+    fi
+}
 
-echo "NOT IMPLEMENTED!" >&2 # Send output to STDERR
-
-exit 1
+add $@
