@@ -1,3 +1,8 @@
+# Getting started (dev)
+```
+git clone https://github.com/Jacques-Philippe/bats-template.git --recursive your-project-name
+```
+
 # Purpose
 
 This project will serve as a template for making bash scripts.
