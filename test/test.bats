@@ -19,7 +19,7 @@ setup() {
 
 @test 'Assert correct return for proper parameters' {
     run project.sh 1 2
-    assert_output 3
+    assert_output --partial 3
 
     # On failure, the expected and actual output are displayed.
     # -- output differs --
