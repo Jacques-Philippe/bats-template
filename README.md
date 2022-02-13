@@ -20,14 +20,3 @@ I got information for this topic from [here](https://bats-core.readthedocs.io/en
 
 This extension adds some helpful tools for working with bats.
 [Find more info here](https://github.com/jetmartin/bats)
-
-# Installation
-
-1. Create a git repository
-1. In project root,
-   ```
-   git submodule add https://github.com/bats-core/bats-core.git test/bats
-   git submodule add https://github.com/bats-core/bats-support.git test/test_helper/bats-support
-   git submodule add https://github.com/bats-core/bats-assert.git test/test_helper/bats-assert
-   ```
-1.
